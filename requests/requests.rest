@@ -5,9 +5,11 @@ POST http://localhost:3001/api/notes
 Content-Type: application/json
 
 {
-    "content": "test",
+    "content": "Test MongoDB connection",
     "important": false
 }
 
 ###
 DELETE http://localhost:3001/api/notes/5
+
+###
