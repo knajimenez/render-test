@@ -2,6 +2,15 @@ POST http://localhost:3001/api/notes
 Content-Type: application/json
 
 {
-    "content": "Ensure everything is working",
+    "content": "Lorem Ipsum Dolor",
     "important": true
+}
+
+###
+PUT http://localhost:3001/api/notes/1
+Content-Type: application/json
+
+{
+    "content": "Lorem Ipsum Dolor",
+    "important": false
 }
